@@ -1,0 +1,55 @@
+body {
+    background-color: lightgrey;
+}
+
+#header-img{
+    height: 100%;
+    width: 200px;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    div.main {
+      font-size: 12px;
+    }
+  }
+.topform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.product {
+    border: 2px solid black;
+}
+
+.card {
+    background: grey;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.about {
+    margin-top: 50px;
+}
+
+iframe {
+   display: block;
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+
+.main {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    max-width: 80%;
+    margin: auto;
+}
+
